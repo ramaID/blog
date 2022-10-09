@@ -52,7 +52,6 @@
 						height="3.5rem"
 						src="{logoImage}"
 					/>
-					<span class="ml-3 text-lg"> Sveltekit Blogger </span>
 				</a>
 			</div>
 		{/if}

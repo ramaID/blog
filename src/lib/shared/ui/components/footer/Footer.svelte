@@ -16,22 +16,20 @@
 		</div>
 		<div class="flex flex-col space-y-4">
 			<ExternalLink
-				href="https://www.linkedin.com/in/asnavneetsharma/"
+				href="https://www.linkedin.com/in/ramageek/"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer LinkedIn link'}">LinkedIn</ExternalLink
 			>
-			<ExternalLink
-				href="https://github.com/navneetsharmaui"
-				cssClasses="{linkClass}"
-				ariaLabel="{'Footer GitHub link'}">GitHub</ExternalLink
+			<ExternalLink href="https://github.com/ramaID" cssClasses="{linkClass}" ariaLabel="{'Footer GitHub link'}"
+				>GitHub</ExternalLink
 			>
 			<ExternalLink
-				href="https://twitter.com/asnavneetsharma"
+				href="https://twitter.com/ramageek"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer Twitter link'}">Twitter</ExternalLink
 			>
 			<ExternalLink
-				href="https://www.instagram.com/asnavneetsharma/"
+				href="https://www.instagram.com/qisthidev/"
 				cssClasses="{linkClass}"
 				ariaLabel="{'Footer Instagram link'}">Instagram</ExternalLink
 			>
@@ -40,9 +38,9 @@
 			<a sveltekit:prefetch href="/snippets" class="{linkClass}" aria-label="{'Footer Snippets link'}">Snippets</a
 			>
 			<a sveltekit:prefetch href="/tags" class="{linkClass}" aria-label="{'Footer tags link'}">Tags</a>
-			<a sveltekit:prefetch href="/dashboard" class="{linkClass}" aria-label="{'Footer dashobard link'}">
+			<!-- <a sveltekit:prefetch href="/dashboard" class="{linkClass}" aria-label="{'Footer dashobard link'}">
 				Dashboard
-			</a>
+			</a> -->
 		</div>
 	</div>
 </footer>

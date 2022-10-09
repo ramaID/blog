@@ -95,11 +95,7 @@
 	</h1>
 	<div class="flex flex-col md:flex-row justify-between items-start md:items-center w-full mt-2">
 		<div class="flex items-center">
-			<img
-				alt="{'Sveltekit Blogger'}"
-				src="{'/images/author/sveltekit-blogger.svg'}"
-				class="rounded-full w-7 h-7"
-			/>
+			<img alt="{'Sveltekit Blogger'}" src="{'/images/author/ramageek.svg'}" class="rounded-full w-7 h-7" />
 			<p class="text-sm text-gray-700 dark:text-gray-300 ml-2">
 				{author}
 				{' / '}

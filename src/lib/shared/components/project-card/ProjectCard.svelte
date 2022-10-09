@@ -29,7 +29,7 @@
 				<span class="sr-only">Svelte</span>
 				<img
 					alt="{'Sveltekit Blogger'}"
-					src="{'/images/author/sveltekit-blogger.svg'}"
+					src="{'/images/author/ramageek.svg'}"
 					width="1.75rem"
 					height="1.75rem"
 					class="h-14 w-14 min-w-sm text-gray-900 dark:text-gray-100"
