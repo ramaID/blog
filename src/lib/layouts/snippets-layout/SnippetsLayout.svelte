@@ -121,13 +121,4 @@
 		<p class="text-sm text-gray-700 dark:text-gray-300 mb-4">{'Share the code snippet on'}</p>
 		<ShareButtons title="{title}" description="{description}" url="{`${environment.launchURL}/snippets/${slug}`}" />
 	</div>
-	<div class="text-sm text-gray-700 dark:text-gray-300 mt-8">
-		<ExternalLink
-			href="{discussUrl}"
-			ariaLabel="{title}"
-			cssClasses="{'text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-500'}"
-		>
-			{'Discuss on Twitter'}
-		</ExternalLink>
-	</div>
 </article>
