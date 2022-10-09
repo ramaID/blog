@@ -4,7 +4,7 @@ function toDate(date: string | Date) {
 }
 
 export function blogTypeDate(date: string | Date): string {
-	return toDate(date).toLocaleDateString(undefined, {
+	return toDate(date).toLocaleDateString('id-ID', {
 		year: 'numeric',
 		month: 'long',
 		day: '2-digit',

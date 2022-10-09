@@ -129,13 +129,5 @@
 		>
 			{'Discuss on Twitter'}
 		</ExternalLink>
-		{` • `}
-		<ExternalLink
-			href="{editUrl}"
-			ariaLabel="{title}"
-			cssClasses="{'text-sm text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-500'}"
-		>
-			{'Edit on GitHub'}
-		</ExternalLink>
 	</div>
 </article>

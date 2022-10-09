@@ -75,7 +75,7 @@
 		navLinks="{navLinks}"
 		logoImage="{'/images/author/ramageek.svg'}"
 		title="{'Sveltekit Blogger'}"
-		useThemeModeButton="{true}"
+		useThemeModeButton="{false}"
 		useTitleAndLogo="{true}"
 	/>
 	<!-- End: Header Navigation -->

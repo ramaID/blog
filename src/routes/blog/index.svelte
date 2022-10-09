@@ -55,13 +55,13 @@
 
 <!-- Start: Blog page section -->
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white"> Blog </h1>
+	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 text-black dark:text-white">Blog</h1>
 	<p class="text-gray-600 dark:text-gray-400 mb-4">
-		There are {blogs.length} articles on this site. Use
-		<a sveltekit:prefetch href="/tags" aria-label="tags" class="text-blue-500 hover:text-blue-700 transition"
-			>tags</a
-		>
-		to get articles based on different tags. Use the search below to filter by title.
+		Jumlah total artikel saat ini ada {blogs.length} buat. Gunakan halaman
+		<a sveltekit:prefetch href="/tags" aria-label="tags" class="text-blue-500 hover:text-blue-700 transition">
+			tags
+		</a>
+		untuk mencari artikel terkait dengan tag-tag yang berbeda. Atau, bisa juga menggunakan fitur pencarian dibawah ini.
 	</p>
 	<!-- Start: Search blogs -->
 	<div class="relative w-full mb-4">
@@ -89,9 +89,7 @@
 	<!-- End: Search blogs -->
 	<!-- Start: Most Recent Blogs Section -->
 	{#if !searchValue}
-		<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">
-			Most Recent
-		</h2>
+		<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white"> Terbaru </h2>
 		{#each mostRecentBlogs as blog, index (blog.slug)}
 			<BlogPost blog="{blog}" />
 		{/each}
@@ -99,7 +97,7 @@
 	<!-- End: Most Recent Blogs Section -->
 
 	<!-- Start: All the blogs section -->
-	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white"> All Posts </h2>
+	<h2 class="font-bold text-2xl md:text-4xl tracking-tight mb-4 mt-8 text-black dark:text-white">Semua Artikel</h2>
 	{#if filteredBlogPosts.length === 0}
 		<p class="text-gray-600 dark:text-gray-400 mb-4"> No posts found. </p>
 	{:else}

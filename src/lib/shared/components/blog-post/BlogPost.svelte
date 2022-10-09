@@ -25,8 +25,8 @@
 				</h3>
 			</a>
 			<!-- <p class="text-gray-500 text-left md:text-right w-32 mb-4 md:mb-0">
-					{`${views ? new Number(views).toLocaleString() : '–––'} views`}
-				</p> -->
+				{`${views ? new Number(views).toLocaleString() : '–––'} views`}
+			</p> -->
 		</div>
 		<p class="text-gray-600 dark:text-gray-400">{blog.description}</p>
 		<TagsContainer tags="{blog.tags}" />

@@ -31,26 +31,24 @@
 	 * @type {IMetaTagProperties}
 	 */
 	const metaData: Partial<IMetaTagProperties> = {
-		title: 'Project | Sveltekit Blog',
-		description: 'Project page of Sveltekit blog starter project',
+		title: `Proyek Qisthi`,
+		description: 'Beberapa daftar proyek open source software yang saya kerjakan, cekidot!',
 		url: '/projects',
-		keywords: ['sveltekit', 'sveltekit starter', 'sveltekit starter about'],
+		keywords: ['proyek', 'qisthi', 'qisthi ramadhani'],
 		searchUrl: '/projects',
 	};
 
 	const projects: IProjectCard[] = [
 		{
-			title: 'Sveltekit Starter',
-			description:
-				'Sveltekit starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable web application.',
-			slug: 'https://github.com/navneetsharmaui/sveltekit-starter',
+			title: 'Laravolt',
+			description: 'Platform untuk mengembangkan sistem informasi dalam 2 minggu',
+			slug: 'https://laravolt.dev',
 			icon: '',
 		},
 		{
-			title: 'Sveltekit Blog',
-			description:
-				'Sveltekit Blog starter project created with sveltekit, typescript, tailwindcss, postcss, husky, and storybook. The project has the structure set up for the scaleable web application and blog.',
-			slug: 'https://github.com/navneetsharmaui/sveltekit-blog',
+			title: 'Indonesia',
+			description: `Laravel package yang berisi tentang data wilayah administratif Negara Kesatuan Republik Indonesia.`,
+			slug: 'https://github.com/laravolt/indonesia',
 			icon: '',
 		},
 	];
@@ -64,16 +62,9 @@
 
 <!-- Start: Project page section -->
 <div class="flex flex-col justify-center items-start max-w-2xl mx-auto mb-16">
-	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white"> Project </h1>
+	<h1 class="font-bold text-3xl md:text-5xl tracking-tight mb-4 dark:text-white">Proyek</h1>
 	<div class="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
-		<p>
-			Hey, I'm Sveltekit Blogger. I'm a Software Developer, writer and creator of&nbsp;
-			<ExternalLink href="https://github.com/navneetsharmaui/sveltkit-starter"
-				>Sveltekit Starter Project</ExternalLink
-			>
-			&nbsp;and&nbsp;
-			<ExternalLink href="https://github.com/navneetsharmaui/sveltekit-blog">Sveltekit Blog Project</ExternalLink>
-		</p>
+		<p>Halo, nama saya Qisthi Ramadhani. Seorang full stack web developer, penulis dan kreator di dunia maya.</p>
 	</div>
 	{#if projects.length > 0}
 		{#each projects as project}
