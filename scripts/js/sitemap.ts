@@ -79,7 +79,7 @@ const routes = workspace['projects'][project]['routes'];
 const assets = workspace['projects'][project]['assets'];
 
 const URL = process.env.SVELTEKIT_BLOG_BASE_URL;
-const BASE_URL = URL ? URL : 'https://sveltekit-blog-starter.vercel.app';
+const BASE_URL = URL ? URL : 'https://blog.pusatwisata24.com';
 const pages = [''];
 
 fs.readdirSync(`${root}/${routes}`).forEach((file) => {
