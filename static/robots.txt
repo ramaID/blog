@@ -1,2 +1,2 @@
 user-agent: *
-sitemap: https://rama.pusatwisata24.com/sitemap.xml
+sitemap: https://blog.pusatwisata24.com/sitemap.xml
